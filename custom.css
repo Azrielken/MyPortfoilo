@@ -1,0 +1,40 @@
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+  }
+  
+  .color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+  }
+  
+  .singleCol {
+    max-width: 750px;
+  }
+
+  .my-2 {
+    color: #3a3a3a;
+    font-style: italic;
+    letter-spacing: 0.1em;
+  }
+
+  footer {
+    background-color: #3a3a3a;
+    color: wheat;
+    height: 3px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #dfdfdf;
+  }
+  
+  @media (max-width: 767.98px) {
+    .color-overlay {
+      min-height: 30vh;
+    }
+  }
